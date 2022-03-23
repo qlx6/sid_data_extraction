@@ -28,27 +28,27 @@ ouid <- read_csv(file = "C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/cl
 
 # Read in the OU from file
 #ou <- readxl::read_excel("Guyana_SID_ 2021.xlsx", sheet = "Dashboard", range = "E1:E1",col_names = FALSE)[[1]]
-ou <- "Vietnam"
+ou <- "Botswana"
 
-sid_2017_tab_a <- read.xlsx("Vietnam SID 3.0_FINAL.xlsx", sheet = "A. Governance, Leadership & Acc", rows = 3:256, cols = 1:12)
+sid_2017_tab_a <- read.xlsx("Botswana SID 3.0_FINAL.xlsx", sheet = "A. Governance, Leadership & Acc", rows = 3:256, cols = 1:12)
 id <- rownames(sid_2017_tab_a)
 sid_2017_tab_a <- cbind(id=id, sid_2017_tab_a)
 colnames(sid_2017_tab_a) <- paste0("col_", 1:ncol(sid_2017_tab_a))# Add temp col names
 sid_2017_tab_a$col_1 <- as.numeric(sid_2017_tab_a$col_1)
 
-sid_2017_tab_b <- read.xlsx("Vietnam SID 3.0_FINAL.xlsx", sheet = "B. Natl Health System & Serv", rows = 2:207, cols = 1:18)
+sid_2017_tab_b <- read.xlsx("Botswana SID 3.0_FINAL.xlsx", sheet = "B. Natl Health System & Serv", rows = 2:207, cols = 1:18)
 id <- rownames(sid_2017_tab_b)
 sid_2017_tab_b <- cbind(id=id, sid_2017_tab_b)
 colnames(sid_2017_tab_b) <- paste0("col_", 1:ncol(sid_2017_tab_b))# Add temp col names
 sid_2017_tab_b$col_1 <- as.numeric(sid_2017_tab_b$col_1)
 
-sid_2017_tab_c <- read.xlsx("Vietnam SID 3.0_FINAL.xlsx", sheet = "C.Strat Invest, Effic, & Sust F", rows = 4:101, cols = 1:12)
+sid_2017_tab_c <- read.xlsx("Botswana SID 3.0_FINAL.xlsx", sheet = "C.Strat Invest, Effic, & Sust F", rows = 4:101, cols = 1:12)
 id <- rownames(sid_2017_tab_c)
 sid_2017_tab_c <- cbind(id=id, sid_2017_tab_c)
 colnames(sid_2017_tab_c) <- paste0("col_", 1:ncol(sid_2017_tab_c))# Add temp col names
 sid_2017_tab_c$col_1 <- as.numeric(sid_2017_tab_c$col_1)
 
-sid_2017_tab_d <- read.xlsx("Vietnam SID 3.0_FINAL.xlsx", sheet = "D. Strategic Info", rows = 3:153, cols = 1:18)
+sid_2017_tab_d <- read.xlsx("Botswana SID 3.0_FINAL.xlsx", sheet = "D. Strategic Info", rows = 3:153, cols = 1:18)
 id <- rownames(sid_2017_tab_d)
 sid_2017_tab_d <- cbind(id=id, sid_2017_tab_d)
 colnames(sid_2017_tab_d) <- paste0("col_", 1:ncol(sid_2017_tab_d))# Add temp col names
@@ -63,27 +63,27 @@ setwd("C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.workg
 sid.list_19 <- list.files(pattern='*.xlsx') # Read in multiple files
 #df.list_19 <- lapply(sid.list_19, read_excel)  # Read in multiple files
 
-sid_2019_tab_a <- read.xlsx("Vietnam SID 2019.Final.xlsx", sheet = "A. Governance, Leadership & Acc", rows = 3:270, cols = 1:12) # Change the SID assessment tool
+sid_2019_tab_a <- read.xlsx("Botswana SID 2019.Final.xlsx", sheet = "A. Governance, Leadership & Acc", rows = 3:270, cols = 1:12) # Change the SID assessment tool
 id <- rownames(sid_2019_tab_a)
 sid_2019_tab_a <- cbind(id=id, sid_2019_tab_a)
 colnames(sid_2019_tab_a) <- paste0("col_", 1:ncol(sid_2019_tab_a))# Add temp col names
 sid_2019_tab_a$col_1 <- as.numeric(sid_2019_tab_a$col_1)
 
-sid_2019_tab_b <- read.xlsx("Vietnam SID 2019.Final.xlsx", sheet = "B. Natl Health System & Serv", rows = 2:223, cols = 1:18)  # Change the SID assessment tool
+sid_2019_tab_b <- read.xlsx("Botswana SID 2019.Final.xlsx", sheet = "B. Natl Health System & Serv", rows = 2:223, cols = 1:18)  # Change the SID assessment tool
 id <- rownames(sid_2019_tab_b)
 sid_2019_tab_b <- cbind(id=id, sid_2019_tab_b)
 colnames(sid_2019_tab_b) <- paste0("col_", 1:ncol(sid_2019_tab_b))# Add temp col names
 sid_2019_tab_b$col_1 <- as.numeric(sid_2019_tab_b$col_1)
 
 
-sid_2019_tab_c <- read.xlsx("Vietnam SID 2019.Final.xlsx", sheet = "C. Strat Finance & Mkt Openness", rows = 4:204, cols = 1:12)  # Change the SID assessment tool
+sid_2019_tab_c <- read.xlsx("Botswana SID 2019.Final.xlsx", sheet = "C. Strat Finance & Mkt Openness", rows = 4:204, cols = 1:12)  # Change the SID assessment tool
 id <- rownames(sid_2019_tab_c)
 sid_2019_tab_c <- cbind(id=id, sid_2019_tab_c)
 colnames(sid_2019_tab_c) <- paste0("col_", 1:ncol(sid_2019_tab_c))# Add temp col names
 sid_2019_tab_c$col_1 <- as.numeric(sid_2019_tab_c$col_1)
 
 
-sid_2019_tab_d <- read.xlsx("Vietnam SID 2019.Final.xlsx", sheet = "D. Strategic Info", rows = 3:195, cols = 1:18)  # Change the SID assessment tool
+sid_2019_tab_d <- read.xlsx("Botswana SID 2019.Final.xlsx", sheet = "D. Strategic Info", rows = 3:195, cols = 1:18)  # Change the SID assessment tool
 id <- rownames(sid_2019_tab_d)
 sid_2019_tab_d <- cbind(id=id, sid_2019_tab_d)
 colnames(sid_2019_tab_d) <- paste0("col_", 1:ncol(sid_2019_tab_d))# Add temp col names
@@ -97,26 +97,26 @@ setwd("C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.workg
 sid.list_21 <- list.files(pattern='*.xlsx') # Read in multiple files
 #df.list_21 <- lapply(sid.list_21, read_excel)  # Read in multiple files
 
-sid_2021_tab_a <- read.xlsx("Vietnam 2021.10.14 SID 2021.xlsx", sheet = "A. Governance, Leadership & Acc", rows = 3:292, cols = 1:12) # Change the SID assessment tool
+sid_2021_tab_a <- read.xlsx("Botswana_SID_2021.xlsx", sheet = "A. Governance, Leadership & Acc", rows = 3:292, cols = 1:12) # Change the SID assessment tool
 id <- rownames(sid_2021_tab_a)
 sid_2021_tab_a <- cbind(id=id, sid_2021_tab_a)
 colnames(sid_2021_tab_a) <- paste0("col_", 1:ncol(sid_2021_tab_a))# Add temp col names
 sid_2021_tab_a$col_1 <- as.numeric(sid_2021_tab_a$col_1)
 
-sid_2021_tab_b <- read.xlsx("Vietnam 2021.10.14 SID 2021.xlsx", sheet = "B. Natl Health System & Serv", rows = 2:224, cols = 1:18) # Change the SID assessment tool
+sid_2021_tab_b <- read.xlsx("Botswana_SID_2021.xlsx", sheet = "B. Natl Health System & Serv", rows = 2:224, cols = 1:18) # Change the SID assessment tool
 id <- rownames(sid_2021_tab_b)
 sid_2021_tab_b <- cbind(id=id, sid_2021_tab_b)
 colnames(sid_2021_tab_b) <- paste0("col_", 1:ncol(sid_2021_tab_b))# Add temp col names
 sid_2021_tab_b$col_1 <- as.numeric(sid_2021_tab_b$col_1)
 
 
-sid_2021_tab_c <- read.xlsx("Vietnam 2021.10.14 SID 2021.xlsx", sheet = "C. Strat Finance & Mkt Openness", rows = 4:211, cols = 1:12) # Change the SID assessment tool
+sid_2021_tab_c <- read.xlsx("Botswana_SID_2021.xlsx", sheet = "C. Strat Finance & Mkt Openness", rows = 4:211, cols = 1:12) # Change the SID assessment tool
 id <- rownames(sid_2021_tab_c)
 sid_2021_tab_c <- cbind(id=id, sid_2021_tab_c)
 colnames(sid_2021_tab_c) <- paste0("col_", 1:ncol(sid_2021_tab_c))# Add temp col names
 sid_2021_tab_c$col_1 <- as.numeric(sid_2021_tab_c$col_1)
 
-sid_2021_tab_d <- read.xlsx("Vietnam 2021.10.14 SID 2021.xlsx", sheet = "D. Strategic Info", rows = 3:196, cols = 1:18) # Change the SID assessment tool
+sid_2021_tab_d <- read.xlsx("Botswana_SID_2021.xlsx", sheet = "D. Strategic Info", rows = 3:196, cols = 1:18) # Change the SID assessment tool
 id <- rownames(sid_2021_tab_d)
 sid_2021_tab_d <- cbind(id=id, sid_2021_tab_d)
 colnames(sid_2021_tab_d) <- paste0("col_", 1:ncol(sid_2021_tab_d))# Add temp col names
@@ -502,7 +502,7 @@ trend[is.na(trend)] <- ""
 
 
 setwd("C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.workgroups/clusters/hss-kp/dm_sid/forMerge/pre_final_output/dataset_sid") # Set where you want the files should be saved
-openxlsx::write.xlsx(sid_all, file = paste("SID_Data_",ou,"_",date, "_SID_Time_", "9-00_Extract.xlsx", sep = ""), keepNA = T, asTable = TRUE)
+openxlsx::write.xlsx(sid_all, file = paste("SID_Data_",ou,"_",date, "_SID_Time_", "1600hrs_Extract.xlsx", sep = ""), keepNA = T, asTable = TRUE)
 
-openxlsx::write.xlsx(trend, file = paste("SID_FY_Trend_",ou,"_",date, "_SID_Time_9-00.xlsx", sep = ""), keepNA = T, asTable = TRUE)
+openxlsx::write.xlsx(trend, file = paste("SID_FY_Trend_",ou,"_",date, "_SID_Time_1600hrs.xlsx", sep = ""), keepNA = T, asTable = TRUE)
 #write_csv(trend, file = "SID_FY_Trend_Kazakhstan_2022-02-10_SID_Time_4-00.csv")

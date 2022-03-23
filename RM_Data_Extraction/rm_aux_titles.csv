@@ -1,0 +1,107 @@
+Classifications,Sub_Classifications
+Classifications,Sub_Classifications
+Func_Elem,Site-Level Programs (excl. Commodities and Health Workforce)
+Func_Elem_Disagg,Care and Treatment (excl. ARV drugs)
+Func_Elem_Disagg_Sub,Clinical
+Func_Elem_Disagg_Sub,"Laboratory (e.g., Lab monitoring; OI, EID, TB, CD4, VL testing)"
+Func_Elem_Disagg_Sub,"Community (e.g., Linkage, Retention, Adherence)"
+Func_Elem_Disagg_Sub,TB-HIV
+Func_Elem_Disagg_Sub,HIV Testing Services
+Func_Elem_Disagg_Sub,Facility-based Testing
+Func_Elem_Disagg_Sub,Community-based Testing
+Func_Elem_Disagg_Sub,Self-testing
+Func_Elem_Disagg_Sub,Testing at Pregnancy-related Visits
+Func_Elem_Disagg_Sub,Prevention
+Func_Elem_Disagg_Sub,"Community Mobilization, Behavior and Norms Change"
+Func_Elem_Disagg_Sub,Condom and Lubricant Programming
+Func_Elem_Disagg_Sub,Prevention of Mother-To-Child Transmission (PMTCT)
+Func_Elem_Disagg_Sub,Voluntary Medical Male Circumcision (VMMC)
+Func_Elem_Disagg_Sub,Pre-Exposure Prophylaxis (PrEP)
+Func_Elem_Disagg_Sub,Other Biomedical Prevention
+Func_Elem_Disagg_Sub,Adolescent Girls and Young Women (AGYW) HIV Prevention
+Func_Elem_Disagg,Key and Priority Populations
+Func_Elem_Disagg_Sub,Female Sex Workers (FSW)
+Func_Elem_Disagg_Sub,People Who Inject Drugs (PWID)
+Func_Elem_Disagg_Sub,Men Who have Sex with Men (MSM) 
+Func_Elem_Disagg_Sub,Transgender Population (TG)
+Func_Elem_Disagg_Sub,Prison Population
+Func_Elem_Disagg_Sub,Priority Population
+Func_Elem_Disagg,Gender-Based Violence (GBV) Programming
+Func_Elem_Disagg,Orphans and Vulnerable Children (OVC)
+Func_Elem,Commodities
+Func_Elem_Disagg,Antiretroviral Drugs
+Func_Elem_Disagg_Sub,ARVs for Treatment
+Func_Elem_Disagg_Sub,ARVs for PrEP
+Func_Elem_Disagg_Sub,Consumables
+Func_Elem_Disagg_Sub,Condoms and Lubricants
+Func_Elem_Disagg_Sub,Rapid Test Kits
+Func_Elem_Disagg_Sub,Self-testing Kits
+Func_Elem_Disagg_Sub,Male Circumcision Kits and Supplies
+Func_Elem_Disagg,Medicines
+Func_Elem_Disagg_Sub,"Medication-Assisted Treatment (e.g., Naloxone)"
+Func_Elem_Disagg_Sub,Tuberculosis Medicines
+Func_Elem_Disagg_Sub,Other Essential Medicines
+Func_Elem_Disagg,Laboratory
+Func_Elem_Disagg_Sub,CD4
+Func_Elem_Disagg_Sub,Viral Load
+Func_Elem_Disagg_Sub,Reagents and Supplies (exclusive of VL & CD4)
+Func_Elem_Disagg,Health Equipment
+Func_Elem_Disagg,PSM Costs
+Func_Elem,Health Workforce
+Func_Elem_Disagg,Health Care Worker: Clinical 
+Func_Elem_Disagg_Sub,Salary and Benefits
+Func_Elem_Disagg_Sub,Salary Top-Ups
+Func_Elem_Disagg_Sub,Training and Supervision
+Func_Elem_Disagg,Health Care Worker: Ancillary
+Func_Elem_Disagg_Sub,Salary and Benefits
+Func_Elem_Disagg_Sub,Salary Top-Ups
+Func_Elem_Disagg_Sub,Training and Supervision
+Func_Elem_Disagg,Ancillary Staff (Site-Level)
+Func_Elem_Disagg_Sub,Salary and Benefits
+Func_Elem_Disagg_Sub,Salary Top-Ups
+Func_Elem_Disagg_Sub,Training and Supervision
+Func_Elem_Disagg,Other Staff
+Func_Elem_Disagg_Sub,Salary and Benefits
+Func_Elem_Disagg_Sub,Salary Top-Ups
+Func_Elem_Disagg_Sub,Training and Supervision
+Func_Elem_Disagg,"Number of staff (Total)
+(please enter actual number where data is available)"
+Func_Elem_Disagg_Sub,Health Care Worker: Clinical 
+Func_Elem_Disagg_Sub,Health Care Worker: Ancillary
+Func_Elem_Disagg_Sub,Ancillary Staff (Site-Level)
+Func_Elem_Disagg_Sub,Other Staff
+Func_Elem,Above Site (Systems) Programs
+Func_Elem_Disagg,Human Resources for Health (HRH) Systems
+Func_Elem_Disagg_Sub,Pre-Service Training
+Func_Elem_Disagg_Sub,In-Service Training/Continuing Medical Education Systems
+Func_Elem_Disagg,Procurement and Supply Chain Management (PSCM) Systems
+Func_Elem_Disagg_Sub,Forecasting and Planning
+Func_Elem_Disagg_Sub,Sourcing and Procurement
+Func_Elem_Disagg_Sub,Quality Assurance and Control
+Func_Elem_Disagg_Sub,Risk Management
+Func_Elem_Disagg_Sub,Logistics Management
+Func_Elem_Disagg_Sub,Warehousing and Inventory Management
+Func_Elem_Disagg_Sub,Transport and Distribution
+Func_Elem_Disagg_Sub,Waste Management and Return
+Func_Elem_Disagg,"Health Management Information Systems (HMIS), Surveillance, and Research"
+Func_Elem_Disagg_Sub,Data Systems
+Func_Elem_Disagg_Sub,Monitoring and Evaluation
+Func_Elem_Disagg_Sub,Surveys and Surveillance
+Func_Elem_Disagg_Sub,"HIV Population-based survey (e.g., PHIA)"
+Func_Elem_Disagg_Sub,"KP Demographic Surveys (e.g., IBBS)"
+Func_Elem_Disagg,Laboratory Systems
+Func_Elem_Disagg_Sub,Conventional and Point of Care Instruments
+Func_Elem_Disagg_Sub,Laboratory Infrastructure and Equipment
+Func_Elem_Disagg_Sub,Laboratory Information System
+Func_Elem_Disagg_Sub,Procurement
+Func_Elem_Disagg_Sub,Quality Management Systems and Accreditation
+Func_Elem_Disagg_Sub,Logistics Management
+Func_Elem_Disagg_Sub,Sample Transport System
+Func_Elem_Disagg,Health Financing
+Func_Elem_Disagg,Governance and Policy
+Func_Elem_Disagg,Institutional and Organizational Development
+Func_Elem_Disagg,Site Level Quality Management
+Func_Elem_Disagg,Other Systems Support
+Func_Elem,Program Management
+Func_Elem_Disagg,At the Implementation Level (Implementing Partners)
+Func_Elem_Disagg,At the Donor Level

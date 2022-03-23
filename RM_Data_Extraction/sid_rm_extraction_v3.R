@@ -13,7 +13,7 @@ path <- "C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.wor
 
 # Read sheet into R
 # of Qs to which weight applies
-rm <- read.xlsx("Vietnam_RM_2021.xlsx", sheet = "RM Functional Resp", rows = 9:114, cols = 2:16)
+rm <- read.xlsx("Botswana_RM_2021.xlsx", sheet = "RM Functional Resp", rows = 9:114, cols = 2:16)
 
 # -- Next 3 lines is used if the OU name is written in the tool -- #
 # ---------------------------------------------------------------- #
@@ -22,7 +22,7 @@ rm <- read.xlsx("Vietnam_RM_2021.xlsx", sheet = "RM Functional Resp", rows = 9:1
 #ou <- removeWords(ou,stopwords)
 
 # Use below for cases where OU was not entered on tool
-ou <- "Vietnam"
+ou <- "Bostwana"
 
 
 
@@ -44,7 +44,8 @@ colnames(rm_aux) <- paste0("col_", 1:ncol(rm_aux))
 
 # -- Read in ou and ouid dataset
 # ------------------------------ #
-ouid <- read_csv(file = "C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.workgroups/clusters/hss-kp/dm_sid/forMerge/pre_final_output/ouid.csv")
+ouid <- read_csv(file = "C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.workgroups/clusters/hss-kp/dm_sid/forMerge/pre_final_output/ouid.csv",
+                 trim_ws = TRUE)
 # of Qs to which weight applies
 
 # -- Set period & ou
@@ -435,7 +436,7 @@ rm_12 <- rm_11 %>% select(
 rm_12[is.na(rm_12)] <- ""
 
 setwd("C:/Users/qlx6/OneDrive - CDC/general dynamics - icpi/clusters.teams.workgroups/clusters/hss-kp/dm_sid/forMerge/pre_final_output/dataset_rm")
-openxlsx::write.xlsx(rm_12, file = paste("RM_",ou, "_", period,"_",date, "_Time_1-03PM.xlsx", sep = ""), keepNA = T, asTable = TRUE)
+openxlsx::write.xlsx(rm_12, file = paste("RM_",ou, "_", period,"_",date, "_Time_1700hrs.xlsx", sep = ""), keepNA = T, asTable = TRUE)
 
 
 
